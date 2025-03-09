@@ -1,0 +1,68 @@
+@use '../../share/variables'
+
+.top-navigation
+
+
+  width: 100%
+
+
+  background-color: variables.$navigation-bckgr
+
+
+  &__top
+    display: flex
+    flex-direction: row
+    align-items: center
+
+    width: 100%
+    height: 38px
+
+    border-bottom: 1px solid rgba(65, 65, 68, 1)
+
+
+  &__buttons, &__switchers
+    height: 100%
+
+
+    color: rgba(161, 161, 170, 1)
+    font-size: 14px
+
+    background-color: variables.$navigation-bckgr
+
+    border: none
+
+    cursor: pointer
+
+  &__item
+    display: flex
+    flex-direction: row
+    align-items: center
+    padding: 10px
+    min-width: 234px
+    height: 41px
+
+    justify-content: space-between
+    border-bottom: 1px solid rgba(65, 65, 68, 1)
+    text-wrap: nowrap
+    box-sizing: border-box
+
+
+    .text
+      position: relative
+
+      display: flex
+      flex-direction: column
+
+
+      color: rgba(161, 161, 170, 1)
+      font-size: 14px
+
+      &-subtext
+        font-size: 10px
+
+
+        
+
+.switchers-top-active
+  color: #fff
+  border-bottom: 2px solid #fff
